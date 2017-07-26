@@ -1,0 +1,33 @@
+unit Controller.ContatoController;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Datasnap.DSServer, 
+  Datasnap.DSAuth, Datasnap.DSProviderDataModuleAdapter, uDMServer,
+  Datasnap.DSCommonServer, Rest.JSON, System.JSON;
+
+type
+  TContatoController = class(TDSServerModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    function Contatos: TJSONValue;
+  end;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+{ TContatoController }
+
+function TContatoController.Validar: string;
+begin
+  Result := 'funcionando!';
+end;
+
+end.
+

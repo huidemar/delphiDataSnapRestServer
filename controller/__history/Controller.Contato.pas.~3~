@@ -1,0 +1,36 @@
+unit Controller.Contato;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Datasnap.DSServer, 
+  Datasnap.DSAuth, Datasnap.DSProviderDataModuleAdapter, uDMServer,
+  Datasnap.DSCommonServer;
+
+type
+  TControllerContato = class(TDSServerModule)
+    DSServerClassContato: TDSServerClass;
+    procedure DSServerClassContatoGetClass(DSServerClass: TDSServerClass;
+      var PersistentClass: TPersistentClass);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+uses Model.Contato;
+
+{$R *.dfm}
+
+procedure TControllerContato.DSServerClassContatoGetClass(
+  DSServerClass: TDSServerClass; var PersistentClass: TPersistentClass);
+begin
+  PersistentClass := Model.Contato.TContato;
+end;
+
+end.
+

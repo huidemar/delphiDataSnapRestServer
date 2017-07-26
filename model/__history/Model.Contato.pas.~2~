@@ -1,0 +1,31 @@
+unit Model.Contato;
+
+interface
+
+type
+  TContato = class
+  private
+    FEmpresa: string;
+    FNome: string;
+    procedure SetEmpresa(const Value: string);
+    procedure SetNome(const Value: string);
+  published
+    property Empresa:string read FEmpresa write SetEmpresa;
+    property Nome:string read FNome write SetNome;
+  end;
+
+implementation
+
+{ TContato }
+
+procedure TContato.SetEmpresa(const Value: string);
+begin
+  FEmpresa := Value;
+end;
+
+procedure TContato.SetNome(const Value: string);
+begin
+  FNome := Value;
+end;
+
+end.

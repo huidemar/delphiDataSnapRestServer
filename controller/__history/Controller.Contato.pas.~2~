@@ -1,0 +1,26 @@
+unit Controller.Contato;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Datasnap.DSServer, 
+  Datasnap.DSAuth, Datasnap.DSProviderDataModuleAdapter, uDMServer,
+  Datasnap.DSCommonServer;
+
+type
+  TControllerContato = class(TDSServerModule)
+    DSServerClassContato: TDSServerClass;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.
+

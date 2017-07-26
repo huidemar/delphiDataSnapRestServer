@@ -1,0 +1,15 @@
+object DmServer: TDmServer
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object DSServer: TDSServer
+    Left = 32
+  end
+  object DSRestService: TDSHTTPService
+    HttpPort = 8080
+    Server = DSServer
+    Filters = <>
+    Left = 48
+    Top = 72
+  end
+end

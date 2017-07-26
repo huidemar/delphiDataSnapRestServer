@@ -1,0 +1,56 @@
+unit uFrmMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFrmMain = class(TForm)
+    Button1: TButton;
+    Memo1: TMemo;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmMain: TFrmMain;
+
+implementation
+
+{$R *.dfm}
+
+uses Model.Contato, Model.Email, Model.Telefone, DBxJsonReflect;
+
+procedure TFrmMain.Button1Click(Sender: TObject);
+var
+  c: TContato;
+  e: TEmail;
+  t: TTelefone;
+  m: TJSONMarshal;
+begin
+  c := TContato.Create;
+  c.Empresa := 'Developer';
+  c.Nome := 'Huidemar';
+
+  e := TEmail.Create;
+  e.Nome := 'huidemar@gmail.com';
+  e.Tipo := 'developer';
+
+  t := TTelefone.Create;
+  t.DDD := '43';
+  t.Numero := '123';
+
+  c.Emails.Add(e);
+  c.Telefones.Add(t);
+
+  m := TJSONMarshal.Create;
+  Memo1.Lines.Add(m.Marshal(c).ToString);
+
+end;
+
+end.

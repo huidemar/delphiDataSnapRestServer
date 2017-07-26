@@ -1,0 +1,20 @@
+object DmServer: TDmServer
+  OldCreateOrder = False
+  Height = 150
+  Width = 304
+  object DSRestServer: TDSServer
+    Left = 64
+  end
+  object DSHTTPRestService: TDSHTTPService
+    Server = DSRestServer
+    Filters = <>
+    Left = 64
+    Top = 56
+  end
+  object DSServerClassContatoController: TDSServerClass
+    OnGetClass = DSServerClassContatoControllerGetClass
+    Server = DSRestServer
+    Left = 208
+    Top = 16
+  end
+end

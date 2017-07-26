@@ -1,0 +1,11 @@
+object ControllerContato: TControllerContato
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object DSServerClassContato: TDSServerClass
+    OnGetClass = DSServerClassContatoGetClass
+    Server = DmServer.DSRestServer
+    Left = 80
+    Top = 24
+  end
+end

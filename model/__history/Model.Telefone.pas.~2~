@@ -1,0 +1,13 @@
+unit Model.Telefone;
+
+interface
+
+type
+  TTelefone=class
+    property DDD:string;
+    property Numero:String;
+  end;
+
+implementation
+
+end.

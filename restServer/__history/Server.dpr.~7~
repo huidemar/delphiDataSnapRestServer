@@ -1,0 +1,17 @@
+program Server;
+
+uses
+  Vcl.Forms,
+  uFrmMain in 'uFrmMain.pas' {FrmMain},
+  Model.Contato in '..\model\Model.Contato.pas',
+  Model.Email in '..\model\Model.Email.pas',
+  Model.Telefone in '..\model\Model.Telefone.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmMain, FrmMain);
+  Application.Run;
+end.

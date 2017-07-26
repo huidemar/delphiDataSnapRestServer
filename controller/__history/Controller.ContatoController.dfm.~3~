@@ -1,0 +1,26 @@
+object ContatoController: TContatoController
+  OldCreateOrder = False
+  Height = 205
+  Width = 265
+  object ContatoTable: TFDQuery
+    Connection = DmServer.ResttesteConnection
+    SQL.Strings = (
+      'SELECT * FROM CONTATO')
+    Left = 26
+    Top = 86
+  end
+  object Contato_emailTable: TFDQuery
+    Connection = DmServer.ResttesteConnection
+    SQL.Strings = (
+      'SELECT * FROM CONTATO_EMAIL')
+    Left = 75
+    Top = 28
+  end
+  object Contato_telefoneTable: TFDQuery
+    Connection = DmServer.ResttesteConnection
+    SQL.Strings = (
+      'SELECT * FROM CONTATO_TELEFONE')
+    Left = 186
+    Top = 15
+  end
+end

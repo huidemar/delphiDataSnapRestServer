@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/07/25 19:21:21.520,=C:\Users\Developer\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:22:34.382,C:\projetos\dTokio\Rest\restServer\uFrmMain.pas=C:\Users\Developer\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:22:34.382,C:\projetos\dTokio\Rest\restServer\uFrmMain.dfm=C:\Users\Developer\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017/07/25 19:22:40.183,C:\projetos\dTokio\Rest\restServer\Server.dproj=C:\Users\Developer\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/07/25 19:23:23.978,=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:23:36.214,C:\projetos\dTokio\Rest\restServer\Model.Cliente.pas=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:24:10.543,C:\projetos\dTokio\Rest\models\Model.Cliente.pas=C:\projetos\dTokio\Rest\restServer\Model.Cliente.pas</Transaction>
+    <Transaction>2017/07/25 19:25:51.984,=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:26:07.005,C:\projetos\dTokio\Rest\restServer\Model.Contato.pas=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:26:15.464,C:\projetos\dTokio\Rest\models\Model.Contato.pas=C:\projetos\dTokio\Rest\restServer\Model.Contato.pas</Transaction>
+    <Transaction>2017/07/25 19:28:34.825,=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:28:44.142,C:\projetos\dTokio\Rest\restServer\Model.Email.pas=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:28:51.126,C:\projetos\dTokio\Rest\models\Model.Email.pas=C:\projetos\dTokio\Rest\restServer\Model.Email.pas</Transaction>
+    <Transaction>2017/07/25 19:30:24.684,=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:30:53.964,C:\projetos\dTokio\Rest\restServer\Model.Telefone.pas=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:31:00.639,C:\projetos\dTokio\Rest\models\Model.Telefone.pas=C:\projetos\dTokio\Rest\restServer\Model.Telefone.pas</Transaction>
+    <Transaction>2017/07/25 19:51:53.975,C:\projetos\dTokio\Rest\models\Model.Cliente.pas=</Transaction>
+    <Transaction>2017/07/25 19:54:59.994,C:\projetos\dTokio\Rest\models\Model.Telefone.pas=</Transaction>
+    <Transaction>2017/07/25 19:55:00.014,C:\projetos\dTokio\Rest\models\Model.Email.pas=</Transaction>
+    <Transaction>2017/07/25 19:55:00.030,C:\projetos\dTokio\Rest\models\Model.Contato.pas=</Transaction>
+    <Transaction>2017/07/25 19:55:39.426,=C:\projetos\dTokio\Rest\model\Model.Contato.pas</Transaction>
+    <Transaction>2017/07/25 19:55:39.445,=C:\projetos\dTokio\Rest\model\Model.Email.pas</Transaction>
+    <Transaction>2017/07/25 19:55:39.467,=C:\projetos\dTokio\Rest\model\Model.Telefone.pas</Transaction>
+    <Transaction>2017/07/25 19:56:15.147,=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:56:51.397,C:\projetos\dTokio\Rest\restServer\uDMServer.pas=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 19:56:51.397,C:\projetos\dTokio\Rest\restServer\uDMServer.dfm=C:\projetos\dTokio\Rest\restServer\Unit1.dfm</Transaction>
+    <Transaction>2017/07/25 20:04:56.547,=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 20:06:18.714,C:\projetos\dTokio\Rest\controller\Controller.Contato.pas=C:\projetos\dTokio\Rest\restServer\Unit1.pas</Transaction>
+    <Transaction>2017/07/25 20:06:18.714,C:\projetos\dTokio\Rest\controller\Controller.Contato.dfm=C:\projetos\dTokio\Rest\restServer\Unit1.dfm</Transaction>
+    <Transaction>2017/07/25 20:22:05.585,C:\projetos\dTokio\Rest\controller\Controller.ContatoController.pas=C:\projetos\dTokio\Rest\controller\Controller.Contato.pas</Transaction>
+    <Transaction>2017/07/25 20:22:05.585,C:\projetos\dTokio\Rest\controller\Controller.ContatoController.dfm=C:\projetos\dTokio\Rest\controller\Controller.Contato.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

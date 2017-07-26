@@ -1,0 +1,25 @@
+unit uDMServer;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TDmServer = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DmServer: TDmServer;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

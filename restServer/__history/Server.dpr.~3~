@@ -1,0 +1,15 @@
+program Server;
+
+uses
+  Vcl.Forms,
+  uFrmMain in 'uFrmMain.pas' {FrmMain},
+  Model.Cliente in '..\models\Model.Cliente.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmMain, FrmMain);
+  Application.Run;
+end.

@@ -1,0 +1,51 @@
+unit Model.Contato;
+
+interface
+
+uses Model.Email, Model.Telefone, System.Generics.Collections;
+
+type
+  TContato = class
+  private
+    FEmpresa: string;
+    FNome: string;
+    FEmails: TList<TEmail>;
+    FTelefones: TList<TTelefone>;
+    procedure SetEmpresa(const Value: string);
+    procedure SetNome(const Value: string);
+  public
+    constructor Create;
+    destructor Destroy;override;
+    property Empresa:string read FEmpresa write SetEmpresa;
+    property Nome:string read FNome write SetNome;
+    property Emails:TList<TEmail> read FEmails;
+    property Telefones:TList<TTelefone> read FTelefones;
+  end;
+
+implementation
+
+{ TContato }
+
+constructor TContato.Create;
+begin
+  FEmails := TList<TEmail>.Create;
+  FTelefones := TList<TTelefone>.Create;
+end;
+
+destructor TContato.Destroy;
+begin
+
+  inherited;
+end;
+
+procedure TContato.SetEmpresa(const Value: string);
+begin
+  FEmpresa := Value;
+end;
+
+procedure TContato.SetNome(const Value: string);
+begin
+  FNome := Value;
+end;
+
+end.
